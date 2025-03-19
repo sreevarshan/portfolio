@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* .timeline hr {
+  border-color: #6366F1 !important;
+  background-color: #6366F1 !important;
+  height: 4px;
+} */
+
+/* .timeline hr {
+    background-color: theme("colors.indigo.400") !important;
+    height: 4px;
+    border-radius: 4px;
+} */
+
+/* .timeline :where(hr) {
+  background-color: #6366F1 !important;
+  border-color: #6366F1 !important;
+  height: 4px !important;
+}
+
+@media print {
+  .timeline :where(hr) {
+      border: 0.1px solid #6366F1 !important;
+  }
+} */
