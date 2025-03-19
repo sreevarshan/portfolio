@@ -17,7 +17,7 @@ export default function Hero() {
   const experience = `${years}.${months}`;
 
   const downloadResume = () => {
-    const resumePath = "/assets/sree_varshan_resume_2025_test.pdf";
+    const resumePath = "/assets/sree_varshan_resume_2025.pdf";
     const link = document.createElement("a");
     link.href = resumePath;
     link.download = "SreeVarshan_Resume.pdf";
