@@ -30,7 +30,7 @@ export default function Contact() {
         </p>
         <div className="flex flex-col items-center justify-center gap-4 pt-15">
           <img
-            src="./public/contact/mail.svg"
+            src="/contact/mail.svg"
             alt="mail"
             className="aspect-square w-12 h-12 rounded-lg object-cover dark:invert"
           />
@@ -47,7 +47,7 @@ export default function Contact() {
         </div>
         <div className="flex flex-col items-center justify-center gap-4 pt-15">
           <img
-            src="./public/contact/phone.svg"
+            src="/contact/phone.svg"
             alt="mail"
             className="aspect-square w-12 h-12 rounded-lg object-cover dark:invert"
           />
@@ -64,7 +64,7 @@ export default function Contact() {
         </div>
         <div className="flex flex-col items-center justify-center gap-4 pt-15">
           <img
-            src="./public/contact/location.svg"
+            src="/contact/location.svg"
             alt="mail"
             className="aspect-square w-12 h-12 rounded-lg object-cover dark:invert"
           />
