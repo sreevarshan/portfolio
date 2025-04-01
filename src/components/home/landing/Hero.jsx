@@ -40,8 +40,8 @@ export default function Hero() {
             </h1>
             <br />
             <h4 className="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-3xl">
-              Software Engineer 👨🏻‍💻 with {experience}+ years of experience in
-              designing and developing scalable applications.
+              Software Engineer 👨🏻‍💻 with {experience} years of experience in
+              designing and developing scalable applications
             </h4>
             <p className="mt-6 text-lg font-medium text-gray-600 dark:text-gray-400 sm:text-xl">
               I have experience across multiple domains, enabling me to adapt to
