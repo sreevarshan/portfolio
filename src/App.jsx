@@ -6,6 +6,7 @@ import Landing from "./components/home/Landing.jsx";
 import MoreAboutMe from "./components/home/more-about-me/MoreAboutMe.jsx";
 import Contact from "./components/root/Contact.jsx";
 import Fallback from "./components/root/Fallback.jsx";
+import { Analytics } from "@vercel/analytics/react"
 
 function ScrollToSection() {
   const location = useLocation();
@@ -35,6 +36,7 @@ function App() {
         <Route path="*" element={<Fallback />} />
       </Routes>
       <Footer />
+      <Analytics />
     </Router>
   );
 }
