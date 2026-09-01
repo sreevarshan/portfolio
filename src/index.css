@@ -1,5 +1,7 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 @plugin "daisyui";
+
 
 /* .timeline hr {
   border-color: #6366F1 !important;
