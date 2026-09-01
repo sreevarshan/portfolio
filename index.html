@@ -5,9 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/sv_svg.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sree Varshan</title>
+    <script>
+      (function() {
+        const theme = localStorage.getItem("theme") || 
+          (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        if (theme === "dark") {
+          document.documentElement.classList.add("dark");
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="src/main.jsx"></script>
   </body>
 </html>
+
