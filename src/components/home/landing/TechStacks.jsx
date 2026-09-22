@@ -18,7 +18,12 @@ export default function TechStack() {
             { file: "react.svg", name: "React" },
             { file: "postgres.svg", name: "PostgreSQL" },
             { file: "mongo.svg", name: "MongoDB" },
+            { file: "elastic.svg", name: "Elastic Search" },
             { file: "kafka.svg", name: "Apache Kafka" },
+            { file: "shopify.svg", name: "Shopify" },
+            { file: "gcp.svg", name: "GCP" },
+            { file: "docker.svg", name: "Docker" },
+
           ].map((tech, index) => (
             <div
               key={index}

@@ -53,11 +53,11 @@ const WorkExperience = () => {
             <div className="timeline-start mb-12 md:text-end">
               <div className="inline-block p-6 rounded-2xl bg-gray-50/50 dark:bg-gray-800/30 border border-gray-200/50 dark:border-gray-700/30 shadow-xs hover:shadow-md hover:border-indigo-500/20 dark:hover:border-indigo-500/30 hover:-translate-y-1 transition-all duration-300 max-w-2xl text-left md:text-right">
                 <time className="font-mono italic text-indigo-600 dark:text-indigo-400 text-sm font-bold block mb-1">
-                  Aug 2024 - Present
+                  Aug 2024 - Jul 2025
                 </time>
                 <h3 className="text-2xl text-indigo-600 dark:text-indigo-400 font-extrabold">EY</h3>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-2">Technical Lead</h4>
-                
+
                 <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-150/40 dark:border-indigo-900/30 mb-4">
                   <BankIcon />
                   Fintech | <b>American Express</b> (contract)
@@ -100,7 +100,7 @@ const WorkExperience = () => {
                 </time>
                 <h3 className="text-2xl text-emerald-600 dark:text-emerald-400 font-extrabold">Aspire Systems</h3>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-2">Senior Software Engineer</h4>
-                
+
                 <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 border border-emerald-150/40 dark:border-emerald-900/30 mb-4">
                   <CartIcon />
                   e-Commerce | <b>myStore</b> [Oct 2022 - Aug 2024]
@@ -146,7 +146,7 @@ const WorkExperience = () => {
                 </time>
                 <h3 className="text-2xl text-sky-600 dark:text-sky-400 font-extrabold">Aspire Systems</h3>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-2">Senior Software Engineer</h4>
-                
+
                 <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-sky-50 dark:bg-sky-950/50 text-sky-600 dark:text-sky-400 border border-sky-150/40 dark:border-sky-900/30 mb-4">
                   <ShieldIcon />
                   Insurance | <b>HDFC Life</b>
@@ -189,7 +189,7 @@ const WorkExperience = () => {
                 </time>
                 <h3 className="text-2xl text-amber-600 dark:text-amber-400 font-extrabold">Aspire Systems</h3>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-2">Junior Software Engineer</h4>
-                
+
                 <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 border border-amber-150/40 dark:border-amber-900/30 mb-4">
                   <SignalIcon />
                   Telecom | <b>STC e-Dealer</b>
@@ -232,7 +232,7 @@ const WorkExperience = () => {
                 </time>
                 <h3 className="text-2xl text-indigo-600 dark:text-indigo-400 font-extrabold">Aspire Systems</h3>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-2">Trainee</h4>
-                
+
                 <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 border border-indigo-150/40 dark:border-indigo-900/30 mb-4">
                   <CapIcon />
                   Java Developer Trainee
