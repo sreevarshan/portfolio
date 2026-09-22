@@ -1,7 +1,25 @@
+import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
   const navigate = useNavigate();
+
+  const [tilt, setTilt] = useState({ x: 0, y: 0, active: false });
+  const cardRef = useRef(null);
+
+  const handleMouseMove = (e) => {
+    if (!cardRef.current) return;
+    const rect = cardRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+    const rotateX = -(y / (rect.height / 2)) * 12;
+    const rotateY = (x / (rect.width / 2)) * 12;
+    setTilt({ x: rotateX, y: rotateY, active: true });
+  };
+
+  const handleMouseLeave = () => {
+    setTilt({ x: 0, y: 0, active: false });
+  };
 
   const startDate = new Date("2021-05-28");
   const currentDate = new Date();
@@ -67,14 +85,6 @@ export default function Hero() {
               </button>
             </div>
           </div>
-<<<<<<< Updated upstream
-          <div className="flex justify-center">
-            <img
-              src="/sree_pfp_l.png"
-              alt="Placeholder"
-              className="w-full max-w-lg rounded-lg dark:shadow-gray-800"
-            />
-=======
           <div className="flex justify-center items-center mt-12 lg:mt-0">
             <div
               ref={cardRef}
@@ -200,7 +210,6 @@ export default function Hero() {
                 />
               </div>
             </div>
->>>>>>> Stashed changes
           </div>
         </div>
       </div>
